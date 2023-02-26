@@ -27,7 +27,7 @@
     "rijs.resdir": "*",
     "serve-static": "*",
     "utilise": "*",
-    "wd": "1.11.3",
+    "wd": "1.11.4",
     "@snyk/protect": "latest"
   },
   "optionalDependencies": {

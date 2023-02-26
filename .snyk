@@ -1,0 +1,39 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - ngrok > request > extend:
+        patched: '2023-02-26T21:10:39.379Z'
+    - wd > request > extend:
+        patched: '2023-02-26T21:10:39.379Z'
+  'npm:hoek:20180212':
+    - ngrok > request > hawk > hoek:
+        patched: '2023-02-26T21:10:39.379Z'
+    - ngrok > request > hawk > boom > hoek:
+        patched: '2023-02-26T21:10:39.379Z'
+    - ngrok > request > hawk > sntp > hoek:
+        patched: '2023-02-26T21:10:39.379Z'
+    - ngrok > request > hawk > cryptiles > boom > hoek:
+        patched: '2023-02-26T21:10:39.379Z'
+  SNYK-JS-LODASH-567746:
+    - ngrok > async > lodash:
+        patched: '2023-02-26T21:10:39.379Z'
+    - wd > archiver > lodash:
+        patched: '2023-02-26T21:10:39.379Z'
+    - wd > archiver > async > lodash:
+        patched: '2023-02-26T21:10:39.379Z'
+    - wd > archiver > archiver-utils > lodash:
+        patched: '2023-02-26T21:10:39.379Z'
+    - wd > archiver > zip-stream > lodash:
+        patched: '2023-02-26T21:10:39.379Z'
+    - wd > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2023-02-26T21:10:39.379Z'
+    - wd > async > lodash:
+        patched: '2023-02-26T21:10:39.379Z'
+  'npm:stringstream:20180511':
+    - ngrok > request > stringstream:
+        patched: '2023-02-26T21:10:39.379Z'
+    - wd > request > stringstream:
+        patched: '2023-02-26T21:10:39.379Z'

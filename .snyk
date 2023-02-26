@@ -32,6 +32,12 @@ patch:
         patched: '2023-02-26T21:10:39.379Z'
     - wd > async > lodash:
         patched: '2023-02-26T21:10:39.379Z'
+    - wd > lodash:
+        patched: '2023-02-26T21:13:45.425Z'
+    - ngrok > async > lodash:
+        patched: '2023-02-26T21:13:45.425Z'
+    - wd > async > lodash:
+        patched: '2023-02-26T21:13:45.425Z'
   'npm:stringstream:20180511':
     - ngrok > request > stringstream:
         patched: '2023-02-26T21:10:39.379Z'
